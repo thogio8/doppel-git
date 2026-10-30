@@ -2,7 +2,7 @@
 
 | Indicateur | Total |
 |---|---|
-| Décisions où on a convergé | 0 |
+| Décisions où on a convergé | 1 |
 | Décisions où on a divergé : j'avais raison | 0 |
 | Décisions où on a divergé : Claude avait raison | 2 |
 | Erreurs de Claude que j'ai corrigées à juste titre | 1 |
@@ -13,3 +13,4 @@
 |---|---|---|---|
 | 0001 | Langage : Rust plutôt que C | 0 | Divergence, choix de Claude retenu ; Claude supposait à tort que je connaissais bien le C |
 | 0002 | Hash = en-tête (type + taille) + contenu, sans nom ni métadonnées | 1 | Divergence partielle (taille OK), choix de Claude retenu |
+| 0003 | Algorithme de hash : SHA-1 (SHA-256 plus tard, possible) | 1 | Convergence |
